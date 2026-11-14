@@ -1,0 +1,24 @@
+ATLANTE INTERATTIVO TURLINGTON
+
+Nel progetto trovi:
+- app.py: l'app Streamlit
+- Atlante_Turlington_30.xlsx: i dati delle 30 giacche
+- immagini/: le 30 immagini PNG, nominate con il codice SKU
+- requirements.txt: i pacchetti necessari
+
+AVVIO SU MAC
+
+1. Scarica e decomprimi Turlington_Atlante_Interactive.zip.
+2. Apri Terminale e inserisci questi comandi uno alla volta. Se hai estratto
+   la cartella in Download, il primo comando è:
+
+   cd ~/Downloads/atlante_turlington
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python3 -m pip install -r requirements.txt
+   python3 -m streamlit run app.py
+
+3. Si aprirà l'app nel browser. Lascia Terminale aperto mentre la usi.
+   Per fermarla, torna in Terminale e premi Ctrl+C.
+
+Incolla i comandi in Terminale, non nella Shell di Python o in nano.
